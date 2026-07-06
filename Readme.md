@@ -46,7 +46,6 @@ StreamFlix Project
 ├── Documentation/
 └── README.md
 ```
-
 ---
 
 # 🛠️ Technologies Used
@@ -208,6 +207,4 @@ Special thanks to **Generation Australia**, our instructor **Dr. Bhanu Prakash D
 
 ---
 
-
-- LinkedIn: *(Add your LinkedIn URL)*
-- GitHub: *(Add your GitHub profile URL)*
+## 📬 Contact
