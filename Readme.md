@@ -1,13 +1,16 @@
-# DA07 - Generation Australia | Final Project
+# 🎬 StreamFlix Data Analytics Project
 
-## 📖 Project Overview
-This repository contains the datasets, project documentation, and deliverables for the **Generation Australia Data Analytics (DA07) Final Project**.
+## 📌 Project Overview
 
-The project focuses on analysing client-provided data to identify trends, generate insights, and provide actionable recommendations through data analysis and visualisation techniques using tools such as Excel, SQL, Python, and Power BI.
+This project was completed as part of the **Generation Australia DA07 Data Analytics Bootcamp**.
+
+The objective was to analyse StreamFlix movie, user, and ratings data to provide actionable business insights that support the company's transition from a free ad-supported streaming platform to a subscription-based model.
 
 ---
 
-## 👥 Project Team (#da-team1)
+## 👥 Team
+
+**DA07 – Team 1**
 
 - Archana Mukunthamani
 - Preethi Sureshbabu
@@ -15,70 +18,193 @@ The project focuses on analysing client-provided data to identify trends, genera
 - Shumaila Anjum
 - Suhandi Kristanto
 
-**Supervisor:** Dr. Bhanu Prakash Doppala
+**Instructor:** Dr. Bhanu Prakash Doppala
 
 ---
 
-## 📂 Repository Contents
+# 🎯 Business Objectives
 
-### Data Files
-- `*.csv` – Client-provided datasets used for analysis.
+The project aims to:
 
-### Project Documentation
-- Client project brief
-- Project requirements document
-- Supporting analysis documents
-
-### Deliverables
-- Data cleaning and transformation files
-- Exploratory Data Analysis (EDA)
-- Power BI dashboards and visualisations
-- Final insights and recommendations
+- Identify the most popular movie genres.
+- Analyse user viewing behaviour.
+- Evaluate customer ratings and engagement.
+- Compare subscription trends.
+- Build an interactive dashboard to support business decision-making.
 
 ---
 
-## 🎯 Project Objectives
+# 📂 Project Structure
 
-- Understand and explore the provided dataset.
-- Clean and prepare the data for analysis.
-- Identify trends, patterns, and key insights.
-- Create interactive dashboards and visualisations.
-- Communicate findings effectively to stakeholders.
-- Provide data-driven recommendations to support decision-making.
-
+```
+StreamFlix Project
+│
+├── Data/
+├── SQL/
+├── Python/
+├── PowerBI/
+├── Documentation/
+└── README.md
+```
 ---
 
-## 🛠️ Tools and Technologies
+# 🛠️ Technologies Used
 
 - Microsoft Excel
-- SQL
+- SQL Server (SSMS)
 - Python
   - Pandas
   - NumPy
   - Matplotlib
-  - Seaborn
 - Power BI
-- GitHub
+- Git & GitHub
 
 ---
 
-## 🔄 Project Workflow
+# 📊 Data Analysis
 
-1. Data Collection
-2. Data Cleaning and Preparation
-3. Exploratory Data Analysis (EDA)
-4. Data Visualisation and Dashboard Development
-5. Insight Generation
-6. Recommendations and Reporting
+The project involved:
+
+- Data profiling
+- Data cleaning
+- Handling missing values
+- Removing duplicate records
+- SQL database design
+- Importing CSV data into SQL Server
+- Exploratory Data Analysis (EDA)
+- Dashboard development
+- Business insight generation
 
 ---
 
-## 🙏 Acknowledgements
+# 📈 Dashboard Features
 
-This project is completed as part of the **Generation Australia Data Analytics Program (DA07)** under the guidance and supervision of **Dr. Bhanu Prakash Doppala**.
+The Power BI dashboard includes:
+
+- Movie Genre Analysis
+- User Demographics
+- Ratings Analysis
+- Subscription Status Analysis
+- Most Popular Movies
+- Viewing Trends
+- Interactive Filters (Slicers)
+- KPI Cards
+- Business Insights
 
 ---
 
-**Repository:** DA07 - Generation Australia Final Project  
-**Team:** #da-team1  
-**Year:** 2026
+# 🗄️ Database Design
+
+The SQL database consists of three tables:
+
+### Movies
+
+- Movie ID
+- Title
+- Genre
+- Language
+- Country
+- Release Year
+- Total Views
+
+### Users
+
+- User ID
+- Age
+- Gender
+- Country
+- Device
+- Subscription Status
+- Total Watch Time
+
+### Ratings
+
+- Rating ID
+- User ID
+- Movie ID
+- Rating
+- Timestamp
+
+Relationships were established using primary and foreign keys.
+
+---
+
+# 📌 Key Insights
+
+Some of the insights generated include:
+
+- Most popular movie genres
+- Highest-rated movies
+- User engagement by subscription type
+- Age group distribution
+- Viewing trends
+- Country-wise user distribution
+- Customer rating behaviour
+
+---
+
+# 🚀 Skills Demonstrated
+
+- Data Cleaning
+- SQL Querying
+- Database Design
+- Exploratory Data Analysis
+- Data Visualisation
+- Dashboard Development
+- Business Storytelling
+- Git Version Control
+- Team Collaboration
+
+---
+
+# 📷 Project Screenshots
+
+You can add screenshots here:
+
+```
+Power BI Dashboard
+
+SQL Database
+
+Python Visualisations
+```
+
+---
+
+# 🤝 Team Collaboration
+
+This project was completed collaboratively using GitHub for version control.
+
+Responsibilities included:
+
+- Requirement analysis
+- Data profiling
+- SQL database creation
+- Python analysis
+- Dashboard development
+- Documentation
+- Presentation preparation
+
+---
+
+# 📚 Learning Outcomes
+
+Through this project we gained practical experience in:
+
+- End-to-end data analytics workflow
+- Business problem solving
+- SQL database implementation
+- Python-based data analysis
+- Power BI dashboard creation
+- GitHub collaboration
+- Agile teamwork
+
+---
+
+# 🙏 Acknowledgements
+
+Special thanks to **Generation Australia**, our instructor **Dr. Bhanu Prakash Doppala**, mentors, and all team members for their continuous guidance and collaboration throughout the project.
+
+---
+
+## 📬 Contact
